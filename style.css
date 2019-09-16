@@ -1,11 +1,42 @@
 body{
     background-color: ;
+    font-family: monospace;
 }
 
 header{
     text-align: center;
 }
-.temp{
+
+.jumbotron{
+    background-color: rgb(201, 220, 228)
+}
+/* .temp{
     text-align: center;
+    
+} */
+ul {
+    list-style-type: none;
+}
+/* li{
+    text-align: left;
+    margin-left: 180px;
+} */
+.contact{
+    background-color: rgb(255, 255, 255)
+}
+.about{
+    text-align: left;
+}
+p{
+    font-size: 16px;
+}
+.section02{
+    text-align: center;
+}
+.name{
+    font-weight: 900;
+}
+.name:hover{
+    color: rgb(55, 154, 201);
     
 }

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background-color: ;
     font-family: monospace;
@@ -30,7 +34,7 @@ ul {
 p{
     font-size: 16px;
 }
-.section02{
+#section02{
     text-align: center;
 }
 .name{
@@ -38,5 +42,6 @@ p{
 }
 .name:hover{
     color: rgb(55, 154, 201);
+    /* background-color: white; */
     
 }

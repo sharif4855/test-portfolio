@@ -1,32 +1,29 @@
 html {
     scroll-behavior: smooth;
   }
-
 body{
-    background-color: ;
+    background-color: rgba(214, 207, 207, 0.425) ;
     font-family: monospace;
+    margin-top: 25px;
 }
-
 header{
     text-align: center;
 }
-
 .jumbotron{
-    background-color: rgb(201, 220, 228)
+    position: relative;
+    background-color: rgb(197, 218, 226)
 }
-/* .temp{
-    text-align: center;
-    
-} */
 ul {
     list-style-type: none;
 }
-/* li{
-    text-align: left;
-    margin-left: 180px;
-} */
 .contact{
-    background-color: rgb(255, 255, 255)
+
+}
+.btn-light{
+    background-color: transparent;
+}
+.btn-light:hover{
+    background-color: rgba(0, 162, 255, 0.301);
 }
 .about{
     text-align: left;
@@ -39,9 +36,30 @@ p{
 }
 .name{
     font-weight: 900;
+    margin-top: 15px;
 }
 .name:hover{
     color: rgb(55, 154, 201);
-    /* background-color: white; */
-    
+}
+
+.id{
+    color: rgb(90, 99, 99);
+}
+h1{
+    position: relative;
+}
+#particles-js{
+    position: relative;
+    margin: 0 auto;
+}
+p{
+    font-family: Courier;
+}
+
+.card-header{
+    background-color: rgb(117, 185, 185)
+}
+#project{
+    margin-top: 25px;
+
 }

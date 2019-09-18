@@ -6,13 +6,23 @@ body{
     font-family: monospace;
     margin-top: 25px;
 }
-header{
-    text-align: center;
+.top{
+    position: absolute;
+    margin:0 auto;
+    height:50vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    align-content: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
-.jumbotron{
+/* .jumbotron{
     position: relative;
-    background-color: rgb(197, 218, 226)
-}
+    background-color: rgb(197, 218, 226);
+    text-align: center;
+} */
 ul {
     list-style-type: none;
 }
@@ -48,9 +58,16 @@ p{
 h1{
     position: relative;
 }
+
+h2{
+    margin-top: 25px;
+}
 #particles-js{
     position: relative;
     margin: 0 auto;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(159, 224, 224);
 }
 p{
     font-family: Courier;
@@ -59,12 +76,17 @@ p{
 .card-header{
     background-color: rgb(117, 185, 185)
 }
-/* #project{
-    margin-top: 25px;
-
-} */
+.simg{
+    border: 1.5px solid ;
+    border-radius: 90px;
+    border-color: rgba(0, 0, 0, 0.678)
+}
 
 .card{
     margin-top: 25px;
     border-radius: 20px;
+}
+
+.con{
+    margin-left: 50px;
 }

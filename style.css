@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 body{
     background-color: rgba(214, 207, 207, 0.425) ;
     font-family: monospace;
@@ -59,7 +59,12 @@ p{
 .card-header{
     background-color: rgb(117, 185, 185)
 }
-#project{
+/* #project{
     margin-top: 25px;
 
+} */
+
+.card{
+    margin-top: 25px;
+    border-radius: 20px;
 }

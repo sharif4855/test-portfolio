@@ -18,25 +18,27 @@ body{
     color: black;
     background-color: rgba(0, 0, 0, 0);
 }
-/* .jumbotron{
-    position: relative;
-    background-color: rgb(197, 218, 226);
-    text-align: center;
-} */
+.simg{
+    border: 1.5px solid ;
+    border-radius: 90px;
+    border-color: rgba(0, 0, 0, 0.678)
+}
+
+.about{
+    text-align: left;
+}
+.con{
+    margin-left: 50px;
+}
+
 ul {
     list-style-type: none;
-}
-.contact{
-
 }
 .btn-light{
     background-color: transparent;
 }
 .btn-light:hover{
     background-color: rgba(0, 162, 255, 0.301);
-}
-.about{
-    text-align: left;
 }
 p{
     font-size: 16px;
@@ -51,7 +53,6 @@ p{
 .name:hover{
     color: rgb(55, 154, 201);
 }
-
 .id{
     color: rgb(90, 99, 99);
 }
@@ -76,17 +77,8 @@ p{
 .card-header{
     background-color: rgb(117, 185, 185)
 }
-.simg{
-    border: 1.5px solid ;
-    border-radius: 90px;
-    border-color: rgba(0, 0, 0, 0.678)
-}
-
 .card{
     margin-top: 25px;
     border-radius: 20px;
 }
 
-.con{
-    margin-left: 50px;
-}
